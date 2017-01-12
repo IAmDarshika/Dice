@@ -1,0 +1,77 @@
+/* Styles */
+/* Control */
+/*functions.scss_December/23/2015*/
+/*colors.scss_July/14/2015*/
+/* Reset All */
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+:focus {
+  outline: 0;
+}
+
+/* Actual CSS starts after this line */
+/*  */
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.stupidBox {
+  width: 100px;
+  height: 100px;
+  background-color:black;
+  color:azure;
+  position: absolute;
+  border-radius: 0.125rem;
+  transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 52px;
+  font-weight:700;
+  cursor: pointer;
+}
